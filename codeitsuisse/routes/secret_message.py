@@ -20,7 +20,7 @@ def encrypt():
 def encry(n,text):
 	p_text = ""
 	for ch in text:
-		if ch.isalnum:
+		if ch.isalnum():
 			p_text += ch.upper()
 
 	start = 0
